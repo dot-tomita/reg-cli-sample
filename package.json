@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "reg-cli ./src/actual ./src/expected ./dist/diff -R ./dist/index.html"
+  },
+  "devDependencies": {
+    "reg-cli": "^0.17.0"
+  }
+}
